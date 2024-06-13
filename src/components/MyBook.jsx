@@ -71,7 +71,7 @@ function MyBook() {
         <About />
       </Page>
       {ProjectData.map((project) =>
-        <Page number={index++}>
+        <Page number={index++} key={index}>
           <Project project={project} />
         </Page>
       )}

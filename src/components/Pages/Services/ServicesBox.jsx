@@ -33,8 +33,8 @@ const ServicesBox = () => {
         <div className='h-full mt-10 text-white'>
             <div className='grid grid-cols-2 gap-6'>
                 {
-                    ServicesData.map(({name,desc,icon,bgColor}) =>
-                        <div className={`p-3 ${bgColor} min-h-[180px] rounded-xl`}>
+                    ServicesData.map(({name,desc,icon,bgColor}, index) =>
+                        <div key={index} className={`p-3 ${bgColor} min-h-[180px] rounded-xl`}>
                             <div className='p-3 space-y-3'>
                                 {icon}
                                 <h1>{name}</h1>
