@@ -53,9 +53,10 @@ function MyBook() {
     },
   ]
   let index = 6
+  let width = window.innerWidth
   return (
-    <HTMLFlipBook width={500} height={600} showCover="true">
-      <Page number={1}>
+    <HTMLFlipBook width={width / 2 - 150} height={600} showCover="true">
+      <Page number={width}>
         <Cover coverImg={coverImg} title="My Portfolio" />
       </Page>
       <Page number={2}>

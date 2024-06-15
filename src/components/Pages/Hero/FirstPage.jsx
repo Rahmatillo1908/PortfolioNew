@@ -13,7 +13,7 @@ const FirstPage = () => {
                             <p className='uppercase'>Hello</p>
                             <p className='text-4xl md:text-6xl font-bold text-black/80'>I'm Rahmatillo</p>
                             <p className='text-black/75 text-left'>Web Developer</p>
-                            <p className='text-black/75'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos quas fuga quos consectetur voluptate.</p>
+                            <p className='text-black/75'>I Umarov Rahmatillo. I was born in 2005. I have been working as a web developer since 2021.</p>
                          <a href="mailto:rahmatillo722022@gmail.com" className='inline-block primary-btn'>Hire Me</a>
                         </div>
                     </div>
